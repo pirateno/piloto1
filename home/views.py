@@ -14,3 +14,6 @@ def contato(request):
 
 def ajuda(request):
     return render(request,'ajuda.html')
+
+def localização(request):
+    return render(request, 'localização.html')
