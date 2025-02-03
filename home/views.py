@@ -16,4 +16,8 @@ def ajuda(request):
     return render(request,'ajuda.html')
 
 def localização(request):
-    return render(request, 'localização.html')
+    return render(request,'localização.html')
+
+def exibiritem(request,id):
+    return render(request,'exibiritem.html',{'id':id})
+
