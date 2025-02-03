@@ -21,3 +21,6 @@ def localização(request):
 def exibiritem(request,id):
     return render(request,'exibiritem.html',{'id':id})
 
+def perfil(request, usuario):
+    return render(f"Olá, {usuario}! Este é seu perfil")
+
