@@ -24,3 +24,11 @@ def exibiritem(request,id):
 def perfil(request, usuario):
     return render(request, 'perfil.html',{'usuario': usuario})
 
+def dados(request):
+    context = {
+        'nome': 'João',
+        'idade': 16,
+        'cidade': 'Teresina'
+    }
+    return render(request,'dados.html',context)
+

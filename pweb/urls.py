@@ -30,4 +30,6 @@ urlpatterns = [
     path('exibiritem/<int:id>', views.exibiritem,name='exibiritem'),
 
     path('perfil/<str:usuario>', views.perfil, name='perfil'),
+
+    path('dados/', views.dados,name='dados'),
 ]
