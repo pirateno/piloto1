@@ -24,8 +24,7 @@ urlpatterns = [
     path('sobre/', views.sobre,name='sobre'),
     path('contato/', views.contato, name='contato'),
     path('ajuda/', views.ajuda, name='ajuda'),
-    path('localização/', views.localização, name='localização'),
+    path('localizacao/', views.localizacao, name='localizacao'),
     path('exibiritem/<int:id>', views.exibiritem,name='exibiritem'),
-    
     path('perfil/<str:usuario>/', views.perfil, name='perfil'),
 ]
