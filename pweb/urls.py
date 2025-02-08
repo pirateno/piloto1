@@ -35,4 +35,5 @@ urlpatterns = [
 
     path('form/', views.form,name='form'),
 
+    path('alunos/listar/', views.listar_alunos,name='listar_alunos'),
 ]
